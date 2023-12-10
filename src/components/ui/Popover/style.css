@@ -1,0 +1,92 @@
+
+.popover {
+    position: relative;
+    display: inline-block;
+  
+  }
+
+  .popover-content {
+    display: none;
+    position: absolute;
+    margin-top: 4px;
+    min-width: 250px;
+    max-width: 30vw;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 12px;
+  }
+
+  .popover-trigger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+  
+
+  .button-head{
+    
+    margin: 0 6px;
+  }
+  .popover.open .popover-content {
+    display: block;
+  }
+  
+  .popover-content > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .popover-content button {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+
+  .popover-content >div .item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%; 
+    margin: 8px;
+
+    width: 100%;
+  }
+
+  .item select {
+    
+    padding:8px 0px;
+    margin-right: 8px;
+    
+    background-color: white;
+    border: 0.2px solid black ; 
+    width: 40%;
+
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  
+  
+
+.item{
+    display: flex;
+    align-items: center;
+    
+  }
+
+.item-title{
+    color: grey;
+    font-size:medium;
+    font-weight: normal;
+}

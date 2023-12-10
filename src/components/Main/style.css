@@ -1,0 +1,8 @@
+.main-body{
+    background-color: #F4F5F8;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    padding-top: 10px;
+    display: flex;
+}

@@ -1,0 +1,22 @@
+.list-tile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.l-head{
+    display: flex;
+}
+
+.leading{
+    margin-right: 10px;
+}
+
+.main{
+    font-size: medium;
+}
+
+.action{
+    color: grey;
+}
